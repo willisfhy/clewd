@@ -1,6 +1,6 @@
 {
   "name": "clewd",
-  "version": "3.7",
+  "version": "4.5",
   "description": ":^)",
   "main": "clewd.js",
   "engines": {
@@ -13,8 +13,20 @@
     "doom",
     "coom"
   ],
-  "author": { "name": "ahsk", "url": "https://gitgud.io/ahsk" },
-  "contributors": [{ "name": "ahsk", "url": "https://gitgud.io/ahsk" }, { "name": "h-a-s-k", "url": "https://github.com/h-a-s-k" }],
+  "author": {
+    "name": "ahsk",
+    "url": "https://gitgud.io/ahsk"
+  },
+  "contributors": [
+    {
+      "name": "ahsk",
+      "url": "https://gitgud.io/ahsk"
+    },
+    {
+      "name": "h-a-s-k",
+      "url": "https://github.com/h-a-s-k"
+    }
+  ],
   "homepage": "https://rentry.org/teralomaniac_clewd",
   "repository": {
     "type": "git",
@@ -23,9 +35,5 @@
   "bugs": {
     "url": "https://gitgud.io/ahsk/clewd/-/issues"
   },
-  "dependencies": {
-    "cycletls": "github:h-a-s-k/CycleTLS",
-    "localtunnel": "^2.0.2"
-  },
-  "devDependencies": {}
+  "dependencies": {"localtunnel": "^2.0.2"}
 }
